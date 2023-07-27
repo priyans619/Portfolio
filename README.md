@@ -1,3 +1,3 @@
-### Sample Portfolio
+# Sample Portfolio
 
-# A reponsive portfolio for your resume
+## A reponsive portfolio for your resume
