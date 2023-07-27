@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8448beb07c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h2 class="logo">PRIYANSH BHARDWAJ</h2>
+                <ul>
+                    <li> <a href="#header">HOME</a></li>
+                    <li> <a href="#about">ABOUT</a></li>
+                    <li> <a href="#services">SERVICES </a></li>
+                    <li> <a href="#portfolio">PORTFOLIO</a></li>
+                    <li> <a href="#contact">CONTACT</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Frontend Developer</p>
+                <h1>Hi, I'm <span>Priyansh</span><br>from India</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ---------------------about-- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/my3.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h2 class="sub-title">ABOUT ME</h2>
+                    <p>A frontend developer is a professional responsible for creating the user interface and user
+                        experience of a website or web application. They focus on the visual aspects and interactive
+                        elements that users see and interact with directly. Here are some key aspects of a frontend
+                        developer's role and their skills:</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Languages</span><br>Java, JavaScript, Html5/CSS3</li>
+                            <li><span>Frameworks</span><br>ReactJS, NextJS, ExpressJS, NodeJS</li>
+                            <li><span>Design</span><br>Figma, Canvas, Krita, Photoshop</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Company X</span><br>2021-2022</li>
+                            <li><span>Company Y</span><br>2022-2023</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents " id="education">
+
+                        <ul>
+                            <li><span>College Name</span><br>Course and Year</li>
+                            <li><span>High-School Name</span><br>Year</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -------------Project---------- -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>I create web design for products which is used for commercail purposes</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>I create web design for products which is used for commercail purposes</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>App Design</h2>
+                    <p>I create web design for products which is used for commercail purposes</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- -----------------portfolio---------------- -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="worklist">
+                <div class="work">
+                    <img src="images/work-1.png">
+
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>This app conects all the people in the world and builds strong community for better future
+                        </p>
+                        <a href=""><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>Media Streaming App</h3>
+                        <p>This app conects all the people in the world and builds strong community for better future
+                        </p>
+                        <a href=""><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Blockchain Smart Contract</h3>
+                        <p>This app conects all the people in the world and builds strong community for better future
+                        </p>
+                        <a href=""><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- --------------------contact------------     -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>Priyansh.2b@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>7725067712</p>
+                    <a href="#" download class="btn btn2">Download CV</a>
+                </div>
+            </div>
+        </div>
+
+    <!----------------- Social Icons------------------------------ -->
+    <div id="Social icon">
+            <div class="social-icons">
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                <a href=""><i class="fa-brands fa-github"></i></a>
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+            </div>
+            
+    </div>
+        
+    <div class="copyright">
+            <p>Copyright © Priyansh Bhardwaj </p>
+    </div>
+
+    <!-- --------------------Script------------------------------- -->
+
+   <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+</body>
+
+</html>
